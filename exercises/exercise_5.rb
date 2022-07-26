@@ -8,3 +8,11 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+#sum of all the stores total revenue
+puts Store.sum("annual_revenue")
+
+#average annual reveune
+puts Store.average("annual_revenue")
+
+#can also use .count at the end
+puts Store.where("annual_revenue >= 1000000").size
