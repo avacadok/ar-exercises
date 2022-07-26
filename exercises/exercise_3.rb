@@ -12,4 +12,5 @@ puts "----------"
 @store3.destroy
 
 #verify the store has been deleted
+#(table_name)_count 
 puts "total stores: #{Store.count}"
